@@ -1,12 +1,40 @@
 html,
 body {
-  background-color: #88ffdd;
+  background-color: #E7F1FF;
   font-family: Verdana, Tahoma, sans-serif;
 }
 
 .container {
   min-width: 460px;
 }
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #f05959;
+}
+
+.title-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.title-link a:hover,
+a:active {
+  text-decoration: none;
+  color: #f05959;
+}
+
+.title-text {
+  font-size: 1.8rem;
+  letter-spacing: 0.3rem;
+}
+
 .shedule {
   width: 100%;
   border-style: 1px black solid;
@@ -21,6 +49,11 @@ body {
   padding: 8px;
   border-style: 1px black solid;
   border-radius: 4px;
-  background-color: aquamarine;
+  background-color: #E7F1FF;
+  ;
 }
 
+.text-copy {
+  font-size: 0.8rem;
+  color: #cccccc;
+}
