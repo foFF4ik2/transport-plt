@@ -1,4 +1,26 @@
-html, body {
+html,
+body {
   background-color: #88ffdd;
   font-family: Verdana, Tahoma, sans-serif;
 }
+
+.container {
+  min-width: 460px;
+}
+.shedule {
+  width: 100%;
+  border-style: 1px black solid;
+  border-radius: 4px;
+
+  padding: 8px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.shedule td {
+  padding: 8px;
+  border-style: 1px black solid;
+  border-radius: 4px;
+  background-color: aquamarine;
+}
+
