@@ -1,11 +1,11 @@
 html,
 body {
   background-color: #E7F1FF;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Tahoma, sans-serif;
 }
 
 .container {
-  min-width: 460px;
+  min-width: 640px;
 }
 
 a {
@@ -16,18 +16,17 @@ a {
 a:hover,
 a:active {
   text-decoration: none;
-  color: #f05959;
+  color: #666666;
 }
 
-.title-link {
-  text-decoration: none;
+.title-text {
   color: #000000;
+  font-weight: bold;
 }
 
-.title-link a:hover,
+.title-text a:hover,
 a:active {
-  text-decoration: none;
-  color: #f05959;
+  color: #000000;
 }
 
 .title-text {
@@ -37,23 +36,26 @@ a:active {
 
 .shedule {
   width: 100%;
-  border-style: 1px black solid;
-  border-radius: 4px;
-
-  padding: 8px;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .shedule td {
   padding: 8px;
-  border-style: 1px black solid;
-  border-radius: 4px;
+  border: 1px black solid;
   background-color: #E7F1FF;
-  ;
 }
 
 .text-copy {
   font-size: 0.8rem;
   color: #cccccc;
+}
+
+.text-copy a {
+  color: #cccccc;
+}
+
+.text-copy a:hover,
+a:active {
+  color: #aaaaaa;
 }
