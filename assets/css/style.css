@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  min-width: 576px;
+  min-width: 480px;
 }
 
 a {
@@ -31,7 +31,7 @@ a:active {
 
 .title-text {
   font-size: 1.4rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 
 .shedule {
@@ -62,7 +62,7 @@ a:active {
 }
 
 .schedule-times {
-  line-height: 0.8rem;
+  line-height: 0.9rem;
 }
 
 .stop-title-main {
