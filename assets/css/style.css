@@ -1,11 +1,11 @@
 html,
 body {
   background-color: #E7F1FF;
-  font-family: Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 .container {
-  min-width: 640px;
+  min-width: 576px;
 }
 
 a {
@@ -30,8 +30,8 @@ a:active {
 }
 
 .title-text {
-  font-size: 1.8rem;
-  letter-spacing: 0.3rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.2rem;
 }
 
 .shedule {
@@ -58,4 +58,26 @@ a:active {
 .text-copy a:hover,
 a:active {
   color: #aaaaaa;
+}
+
+.schedule-times {
+  line-height: 0.8rem;
+}
+
+.stop-title-main {
+  font-weight: bold;
+  padding-right: 8px;
+}
+
+.stop-title-ordnr {
+  font-weight: normal;
+  padding-right: 8px;
+}
+
+.stop-time {
+  padding-right: 8px;
+}
+
+.schedule-comments {
+  font-size: 0.9rem;
 }
